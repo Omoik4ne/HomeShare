@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeShare.Repositories", "H
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeShare.Entities", "HomeShare.Entities\HomeShare.Entities.csproj", "{72B1281A-899C-411E-8F8E-F2CBA435DFA9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeShare.Mappers", "HomeShare.Mappers\HomeShare.Mappers.csproj", "{B16428E5-8959-49E0-A7D3-5A8C4B550E15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeShare.Models", "HomeShare.Models\HomeShare.Models.csproj", "{B92C5A20-6551-4A9C-AE5E-A6E8014A71AB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +45,14 @@ Global
 		{72B1281A-899C-411E-8F8E-F2CBA435DFA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{72B1281A-899C-411E-8F8E-F2CBA435DFA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{72B1281A-899C-411E-8F8E-F2CBA435DFA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B16428E5-8959-49E0-A7D3-5A8C4B550E15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B16428E5-8959-49E0-A7D3-5A8C4B550E15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B16428E5-8959-49E0-A7D3-5A8C4B550E15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B16428E5-8959-49E0-A7D3-5A8C4B550E15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B92C5A20-6551-4A9C-AE5E-A6E8014A71AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B92C5A20-6551-4A9C-AE5E-A6E8014A71AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B92C5A20-6551-4A9C-AE5E-A6E8014A71AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B92C5A20-6551-4A9C-AE5E-A6E8014A71AB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

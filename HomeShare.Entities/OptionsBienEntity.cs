@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace HomeShare.Entities
 {
-    public class Class1
+    public class OptionsBienEntity
     {
     }
 }

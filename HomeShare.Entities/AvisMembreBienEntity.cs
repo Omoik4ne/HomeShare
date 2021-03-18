@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace HomeShare.Repositories
+namespace HomeShare.Entities
 {
-    public class Class1
+    public class AvisMembreBienEntity
     {
     }
 }
