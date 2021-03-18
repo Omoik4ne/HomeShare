@@ -7,7 +7,7 @@
         <title>@ViewBag.Title - HomeShare</title>
 
 
-        @Styles.Render("~/Content/bootstrap/css")
+        @*@Styles.Render("~/Content/bootstrap/css")*@
         @Styles.Render("~/Content/owl-carousel/css")
         @Styles.Render("~/Content/slitslider/css")
         @Styles.Render("~/Content/css")
@@ -36,11 +36,11 @@
                     <!-- Nav Starts -->
                     <div class="navbar-collapse  collapse">
                         <ul class="nav navbar-nav navbar-right">
-                            <li class="active"><a @ViewBag.Home href="/Home/Index">Home</a></li>
-                            <li><a @ViewBag.About href="/Home/About">About</a></li>
-                            <li><a @ViewBag.Agents href="/Home/Agents">Agents</a></li>
-                            <li><a @ViewBag.Blog href="/Home/Blog">Blog</a></li>
-                            <li><a @ViewBag.Contact href="/Home/Contact">Contact</a></li>
+                            <li class="active">@Html.ActionLink("Home", "Index", "Home")</li>
+                            <li>@Html.ActionLink("About", "About", "Home")</li>
+                            <li>@Html.ActionLink("Agents", "Agents", "Home")</li>
+                            <li>@Html.ActionLink("Blog", "Blog", "Home")</li>
+                            <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
                         </ul>
                     </div>
                     <!-- #Nav Ends -->
@@ -77,10 +77,10 @@
                     <div class="col-lg-3 col-sm-3">
                         <h4>Information</h4>
                         <ul class="row">
-                            <li class="col-lg-12 col-sm-12 col-xs-3"><a @ViewBag.About href="/Home/About">About</a></li>
-                            <li class="col-lg-12 col-sm-12 col-xs-3"><a @ViewBag.Agents href="/Home/Agents">Agents</a></li>
-                            <li class="col-lg-12 col-sm-12 col-xs-3"><a @ViewBag.Blog href="/Home/Blog">Blog</a></li>
-                            <li class="col-lg-12 col-sm-12 col-xs-3"><a @ViewBag.Contact href="/Home/Contact">Contact</a></li>
+                            <li class="col-lg-12 col-sm-12 col-xs-3">@Html.ActionLink("About", "About", "Home")</li>
+                            <li class="col-lg-12 col-sm-12 col-xs-3">@Html.ActionLink("Agents", "Agents", "Home")</li>
+                            <li class="col-lg-12 col-sm-12 col-xs-3">@Html.ActionLink("Blog", "Blog", "Home")</li>
+                            <li class="col-lg-12 col-sm-12 col-xs-3">@Html.ActionLink("Contact", "Contact", "Home")</li>
                         </ul>
                     </div>
 

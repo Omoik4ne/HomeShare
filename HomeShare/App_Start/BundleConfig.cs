@@ -31,8 +31,8 @@ namespace HomeShare
             bundles.Add(new ScriptBundle("~/Scripts/js").Include(
                       "~/Scripts/script.js"));
 
-            bundles.Add(new StyleBundle("~/Content/bootstrap/css").Include(
-                      "~/Content/bootstrap/bootstrap.css"));
+            //bundles.Add(new StyleBundle("~/Content/bootstrap/css").Include(
+            //          "~/Content/bootstrap/bootstrap.css"));
 
             bundles.Add(new StyleBundle("~/Content/owl-carousel/css").Include(
             "~/Content/owl-carousel/owl.carousel.css",
@@ -45,8 +45,8 @@ namespace HomeShare
             ));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
-            "~/Content/style.css"
-            ));
+            "~/Content/bootstrap.css",
+            "~/Content/style.css"));
         }
                 //<script src = "http://code.jquery.com/jquery-1.9.1.min.js" ></ script >
 
