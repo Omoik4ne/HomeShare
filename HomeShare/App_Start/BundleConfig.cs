@@ -17,24 +17,36 @@ namespace HomeShare
             // Use the development version of Modernizr to develop with and learn from. Then, when you're
             // ready for production, use the build tool at https://modernizr.com to pick only the tests you need.
 
-            bundles.Add(new ScriptBundle("~/bundles/bootstrap").Include(
-                      "~/Scripts/bootstrap.js"));
+            bundles.Add(new ScriptBundle("~/Scripts/bootstrap/js").Include(
+                      "~/Scripts/bootstrap/bootstrap.js"));
 
-            bundles.Add(new ScriptBundle("~/bundles/jquery").Include(
-                        "~/Scripts/jquery.ba-cond.min.js",
-                        "~/Scripts/jquery.slitslider.js"));
+            bundles.Add(new ScriptBundle("~/Scriptw/owl-carousel/js").Include(
+                      "~/Scripts/owl-carousel/owl.carousel.js"));
 
-            bundles.Add(new ScriptBundle("~/bundles/js").Include(
-            "~/Scripts/owl.carousel.js",
-            "~/Scripts/modernizr.custom.79639.js"));
+            bundles.Add(new ScriptBundle("~/Scripts/slitslider/js").Include(
+                      "~/Scripts/slitslider/jquery.ba-cond.min.js",
+                      "~/Scripts/slitslider/jquery.slitslider.js",
+                      "~/Scripts/slitslider/modernizr.custom.79639.js" ));
+
+            bundles.Add(new ScriptBundle("~/Scripts/js").Include(
+                      "~/Scripts/script.js"));
+
+            bundles.Add(new StyleBundle("~/Content/bootstrap/css").Include(
+                      "~/Content/bootstrap/bootstrap.css"));
+
+            bundles.Add(new StyleBundle("~/Content/owl-carousel/css").Include(
+            "~/Content/owl-carousel/owl.carousel.css",
+            "~/Content/owl-carousel/owl.theme.css"
+            ));
+
+            bundles.Add(new StyleBundle("~/Content/slitslider/css").Include(
+            "~/Content/slitslider/style.css",
+            "~/Content/slitslider/custom.css"
+            ));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
-                        "~/Content/owl.carousel.css",
-                        "~/Content/owl.theme.css",
-                      "~/Content/custom.css",
-                      "~/Content/style.css",
-                      "~/Content/bootstrap.css",
-                      "~/Content/general/style.css"));
+            "~/Content/style.css"
+            ));
         }
                 //<script src = "http://code.jquery.com/jquery-1.9.1.min.js" ></ script >
 
