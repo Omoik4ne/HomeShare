@@ -42,7 +42,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AvisMembreBienRepository.cs" />
+    <Compile Include="BienEchangeRepository.cs" />
     <Compile Include="MembreBienEchangeRepository.cs" />
+    <Compile Include="MembreRepository.cs" />
+    <Compile Include="OptionBienRepository.cs" />
+    <Compile Include="OptionRepository.cs" />
+    <Compile Include="PaysRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -24,6 +24,7 @@ namespace HomeShare.Repositories
         public MembreBienEchangeEntity GetOne(int PK)
         {
             string requete = "SELECT * FROM MembreBienEchange WHERE IdMembreBienEchange = @id";
+
             throw new NotImplementedException();
         }
 
