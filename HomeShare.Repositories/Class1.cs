@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace HomeShare.DAL
+namespace HomeShare.Repositories
 {
     public class Class1
     {
