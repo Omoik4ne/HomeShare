@@ -18,14 +18,14 @@ namespace HomeShare.Repositories
         {
             string requete = "SELECT * FROM BienEchange";
 
-            throw new NotImplementedException();
+            return base.Get(requete);
         }
 
         public BienEchangeEntity GetOne(int PK)
         {
             string requete = "SELECT * FROM BienEchange WHERE IdBienEchange = @id";
 
-            throw new NotImplementedException();
+            return base.GetOne(PK, requete);
         }
 
         public bool Insert(BienEchangeEntity toInsert)

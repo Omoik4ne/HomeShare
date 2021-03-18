@@ -18,7 +18,7 @@ namespace HomeShare.Repositories
         {
             string requete = "SELECT * FROM OptionsBien";
 
-            throw new NotImplementedException();
+            return base.Get(requete);
         }
 
         public OptionsBienEntity GetOne(int PK)
@@ -26,7 +26,7 @@ namespace HomeShare.Repositories
         {
             string requete = "SELECT * FROM OptionsBien WHERE IdOptionsBien = @id";
 
-            throw new NotImplementedException();
+            return base.GetOne(PK, requete);
         }
 
         public bool Insert(OptionsBienEntity toInsert)

@@ -18,14 +18,14 @@ namespace HomeShare.Repositories
         {
             string requete = "SELECT * FROM Pays";
 
-            throw new NotImplementedException();
+            return base.Get(requete);
         }
 
         public PaysEntity GetOne(int PK)
         {
             string requete = "SELECT * FROM Pays WHERE IdPays = @id";
 
-            throw new NotImplementedException();
+            return base.GetOne(PK, requete);
         }
 
         public bool Insert(PaysEntity toInsert)
