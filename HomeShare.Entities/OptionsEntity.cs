@@ -8,5 +8,37 @@ namespace HomeShare.Entities
 {
     public class OptionsEntity
     {
+        #region Fields
+        private int _idOption;
+        private string _libelle; 
+        #endregion
+
+        #region Properties
+        public int IdOption
+        {
+            get
+            {
+                return _idOption;
+            }
+
+            set
+            {
+                _idOption = value;
+            }
+        }
+
+        public string Libelle
+        {
+            get
+            {
+                return _libelle;
+            }
+
+            set
+            {
+                _libelle = value;
+            }
+        } 
+        #endregion
     }
 }

@@ -8,5 +8,51 @@ namespace HomeShare.Entities
 {
     public class OptionsBienEntity
     {
+        #region Fields
+        private int _idOption;
+        private int _idBien;
+        private string _valeur;
+        #endregion
+
+        #region Properties
+        public int IdOption
+        {
+            get
+            {
+                return _idOption;
+            }
+
+            set
+            {
+                _idOption = value;
+            }
+        }
+
+        public int IdBien
+        {
+            get
+            {
+                return _idBien;
+            }
+
+            set
+            {
+                _idBien = value;
+            }
+        }
+
+        public string Valeur
+        {
+            get
+            {
+                return _valeur;
+            }
+
+            set
+            {
+                _valeur = value;
+            }
+        } 
+        #endregion
     }
 }
