@@ -130,8 +130,38 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\custom.css" />
     <Content Include="Content\general\style.css" />
+    <Content Include="Content\images\about.jpg" />
+    <Content Include="Content\images\advertisements.jpg" />
+    <Content Include="Content\images\agents\1.jpg" />
+    <Content Include="Content\images\agents\2.jpg" />
+    <Content Include="Content\images\agents\3.jpg" />
+    <Content Include="Content\images\agents\4.jpg" />
     <Content Include="Content\images\AjaxLoader.gif" />
+    <Content Include="Content\images\banner.jpg" />
+    <Content Include="Content\images\bg.jpg" />
+    <Content Include="Content\images\bginside.jpg" />
+    <Content Include="Content\images\bgmain.png" />
+    <Content Include="Content\images\blog\1.jpg" />
+    <Content Include="Content\images\blog\2.jpg" />
+    <Content Include="Content\images\blog\3.jpg" />
+    <Content Include="Content\images\blog\4.jpg" />
+    <Content Include="Content\images\blog\5.jpg" />
+    <Content Include="Content\images\facebook.png" />
     <Content Include="Content\images\grabbing.png" />
+    <Content Include="Content\images\instagram.png" />
+    <Content Include="Content\images\linkedin.png" />
+    <Content Include="Content\images\logo.png" />
+    <Content Include="Content\images\properties\1.jpg" />
+    <Content Include="Content\images\properties\2.jpg" />
+    <Content Include="Content\images\properties\3.jpg" />
+    <Content Include="Content\images\properties\4.jpg" />
+    <Content Include="Content\images\properties\5.jpg" />
+    <Content Include="Content\images\slider\1.jpg" />
+    <Content Include="Content\images\slider\2.jpg" />
+    <Content Include="Content\images\slider\3.jpg" />
+    <Content Include="Content\images\slider\4.jpg" />
+    <Content Include="Content\images\slider\5.jpg" />
+    <Content Include="Content\images\twitter.png" />
     <Content Include="Content\owl.carousel.css" />
     <Content Include="Content\owl.theme.css" />
     <Content Include="Content\style.css" />
@@ -172,6 +202,8 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <Content Include="Views\Home\Agents.cshtml" />
+    <Content Include="Views\Home\Blog.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
